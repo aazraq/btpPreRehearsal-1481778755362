@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: btpPreRehearsal
+  host: btpPreRehearsal
+  disk_quota: 1024M
+  env:
+    PCV_CLIENT_ID: 97154a3f-4577-40a2-834e-ad63f3e6aea6
+    AVG_BERTHING_TIME: '2'
